@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(to bottom,#ffe4e4, #469fcb);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+b a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(91, 91, 255);
+    padding: 5px;
+    background-color: white;
+    border-radius: 7px;
+}
+b a:visited{
+    color: rgb(91, 91, 255);
+}
+b a:hover{
+    transition: color 2s linear;
+    color:cadetblue;
+}
+h1{
+    font-weight: bold;
+    color: rgb(77, 137, 228);
+}
+img{
+    width: 90%;
+    height:500px;
+}
+.secondary{
+    width:50%;
+    height: 75%;
+}
+
+section{
+    float: left;
+    width: 50%;
+}
+
+table{
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 18.1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tr:nth-of-type(odd){
+    background-color: rgb(218, 207, 247);
+}
+
+td{
+    text-align: center;
+}
+
+td,th{
+    padding: 0.5em;
+    border: 4px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: auto;
+}
+label{
+    display: block;
+    text-align: left;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+
